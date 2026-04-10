@@ -1,0 +1,40 @@
+.doctor-layout {
+  display: flex;
+  min-height: 100vh;
+  background-color: #0f172a; /* dark blue */
+  color: white;
+}
+
+.doctor-sidebar {
+  width: 240px;
+  background-color: #111c2d;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.doctor-sidebar a {
+  color: #cbd5e1;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.doctor-sidebar a:hover {
+  color: #38bdf8;
+}
+
+.doctor-content {
+  flex: 1;
+  padding: 30px;
+}
+
+.doctor-header {
+  height: 70px;
+  background-color: #0f172a;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 25px;
+  border-bottom: 1px solid #1e293b;
+}
